@@ -16,3 +16,24 @@ func main() {
 	fmt.Println("sentence is : ", name)
 }
 */
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+	"strings"
+)
+
+func main() {
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Println("enter a sen:")
+	senc, err := reader.ReadString('\n')
+	if err != nil {
+		fmt.Println("error in reading input")
+		return
+	}
+	senc = strings.TrimSpace(senc)
+	fmt.Println("sentence is:", senc, err)
+
+}
