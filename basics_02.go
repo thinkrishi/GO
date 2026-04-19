@@ -1,5 +1,6 @@
 package main
 
+// ths program is for thaking a complete inoput of the line like we read in c++ getline(str,cin)
 import (
 	"bufio"
 	"fmt"
