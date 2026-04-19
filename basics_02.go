@@ -45,6 +45,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -53,7 +54,11 @@ func main() {
 	fmt.Println("enter a number:")
 	senc, _ := reader.ReadString('\n')
 	senc = strings.TrimSpace(senc)
+	num, err := strconv.Atoi(senc)
+	if err != nil {
+		fmt.Println("error in reading input")
+		return
+	}
 
-	fmt.Println("sentence is:", senc)
-
+	fmt.Println("number is:", num)
 }
