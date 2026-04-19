@@ -12,6 +12,7 @@ func main() {
 	fmt.Println(name)
 	fmt.Println(age)
 	var name2 string
+	fmt.Println("enter your name")
 	fmt.Scanln(&name2)
 	fmt.Println(name2)
 }
