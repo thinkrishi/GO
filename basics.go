@@ -11,5 +11,7 @@ func main() {
 	age := 20
 	fmt.Println(name)
 	fmt.Println(age)
-
+	var name2 string
+	fmt.Scanln(&name2)
+	fmt.Println(name2)
 }
