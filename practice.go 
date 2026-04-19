@@ -1,5 +1,0 @@
-x :=10
-int x = 10
-x =10
-var ptr *int 
-fmt.Println("rishi")
