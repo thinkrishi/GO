@@ -1,4 +1,4 @@
-package main
+/*package main
 
 //variable and basics
 
@@ -28,4 +28,15 @@ func main() {
 	for i := 0; i < jink; i++ {
 		fmt.Println(i)
 	}
+}
+*/
+// data types in go
+package main
+
+import "fmt"
+
+func main() {
+	name := "rishi"
+	age := 20
+	fmt.Printf(" \n name is %s and age is %d", name, age)
 }
