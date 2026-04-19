@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+func main() {
+	// first type of decalare for scanln
+	age := 0
+	fmt.Scanln(&age)
+	fmt.Println(age)
+}
