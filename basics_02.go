@@ -51,7 +51,7 @@ import (
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Println("enter a number:")
+	fmt.Print("enter a number:")
 	senc, _ := reader.ReadString('\n')
 	senc = strings.TrimSpace(senc)
 	num, err := strconv.Atoi(senc)
