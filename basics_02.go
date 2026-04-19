@@ -39,6 +39,7 @@ func main() {
 
 }
 */
+/*
 package main
 
 import (
@@ -62,3 +63,5 @@ func main() {
 
 	fmt.Println("number is:", num)
 }
+*/
+
