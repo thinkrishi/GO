@@ -64,4 +64,14 @@ func main() {
 	fmt.Println("number is:", num)
 }
 */
+package main
 
+import "fmt"
+
+func main() {
+	const pi = 3.14
+	fmt.Println(pi)
+	var a int = 10
+	var b float64 = float64(a)
+	fmt.Printf(" b is %f", b)
+}
